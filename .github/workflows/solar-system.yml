@@ -51,7 +51,7 @@ jobs:
         
         - name: Code Coverage
           continue-on-error: true
-          run: npm run code-coverage
+          run: npm run coverage
         
         - name: Upload Code Coverage Result
           uses: actions/upload-artifact@v3
