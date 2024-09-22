@@ -126,7 +126,7 @@ jobs:
             kubeconfig: ${{ secrets.KUBECONFIG }}
 
         - name: Verify kubectl
-          run: kubectl version --short -o yaml
+          run: kubectl version
 
         - name: Ingress IP
           run: >
